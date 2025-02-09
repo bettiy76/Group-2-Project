@@ -65,3 +65,96 @@
     gap: 10px;
   }
 }
+/* about us styling*/
+.about-us {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            background: white;
+        }
+
+        .about-us .left-content {
+            width: 50%;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .about-us .left-content h2 {
+            color: #f04e30;
+            font-size: 28px;
+        }
+
+        .about-us .left-content h3 {
+            font-size: 24px;
+        }
+
+        .about-us .left-content p {
+            font-size: 16px;
+            color: #444;
+        }
+
+        .about-us .btn {
+            background: #f04e30;
+            color: white;
+            padding: 10px 20px;
+            border: solid;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .about-us .right-content {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            
+  
+        }
+
+        .about-us .right-content img {
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+             border: 1px solid #ddd;
+             transition: background 0.3s ease, transform 0.2s ease;
+        }
+         .about-us .right-content img:hover{
+          transform: scale(1.05);
+         }
+
+        /* Extra Content Section */
+        .extra-content {
+            padding: 30px;
+        }
+
+        .extra-content h2 {
+            font-size: 26px;
+            color: #f04e30;
+        }
+
+        .extra-content .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .extra-content .gallery img {
+            width: 45%;
+            height: 500px;
+            border-radius: 10px;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+        .extra-content .gallery img:hover{
+          transform: scale(1.05);
+        }
+
+        /* Media Section */
+        .media {
+            padding: 20px;
+        }
+
+        video, audio {
+            margin-top: 20px;
+        }
