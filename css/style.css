@@ -1,5 +1,11 @@
 /* header styling */
-
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 100px;
+}
 .header {
   display: flex;
   justify-content: space-between;
